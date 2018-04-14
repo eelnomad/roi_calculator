@@ -1,9 +1,9 @@
 import tornado.ioloop
 import tornado.web
-import DataLoader
+import API.DataLoader as DataLoader
 import threading
 import os
-import ModelTrainer
+import API.ModelTrainer as ModelTrainer
 # import secrets
 # import numpy as np
 # import argparse
